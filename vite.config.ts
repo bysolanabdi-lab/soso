@@ -10,6 +10,7 @@ export default defineConfig({
     generateStaticHtmlPlugin()
   ],
   build: {
-    outDir: "dist/client",
+    // Changement ici : on vise la racine du dossier de build standard
+    outDir: "dist", 
   }
 });
